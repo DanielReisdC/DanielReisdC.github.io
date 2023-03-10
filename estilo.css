@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri;
+    
+  }
+  
+  header{
+   
+    background-color:rgba(0, 0, 0, 0);
+    position: fixed;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+   
+   
+  }
+  .img{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    margin-top: 150px;
+    
+}
+  
+  .img2{
+    width: 100%;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  
+  }
+  li{
+    color: white;
+    list-style: none;
+  }
+  a{
+    
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+  }
+  main{
+    justify-content: space-between;
+    
+  }
+  .geral{
+    
+    display: flex;
+    
+  }
+  
+  .div1{
+    
+    width: 50%;
+    margin-top: 0px;
+    vertical-align: top;
+    text-align: center
+    
+  }
+  .texto{
+    display: block;
+    position: relative;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    
+
+  }
+  .titulo{
+    
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+  
+  .textbox{
+    
+
+    width: 70%;
+    height: 300px;
+    margin: 95px;
+    margin-top: 0px;
+    
+   
+  }
+  .div2{
+    background-color: #719430;
+    width: 50%;
+    margin-top: 0px;
+    vertical-align: top;
+    text-align: center;
+   
+    height: 800px;
+  }
+  
+    
+  .texto2{
+    display: block;
+    position: relative;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+   
+
+  }
+  .titulo2{
+    
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+  .textbox2{
+    
+    
+    width: 40%;
+    height: 300px;
+    margin: 60px;
+    margin-top: 0px;
+    padding: 0;
+    
+   
+  }
+  .img3{
+    width: 310px;
+    height: 450px;
+    margin-top: 165px;
+    position: absolute;
+    right: 20px;
+
+  }
+  .div2 h1{
+    color: white;
+  }
+  h1{
+    font-weight: lighter;
+    text-transform: none;
+    color: #719430;
+   font-size: 50px;
+  
+  }
+  .div2 p{
+    color: white;
+  }
+  .divisao{
+    width: 100%;
+    margin-top: -4px;
+    height: 20px;
+    table-layout: fixed;
+    display: table;
+    background-color: #a9d853;
+  }
+  p{
+    font-size: 20px;
+    margin-top: 35px;
+    color: #9c9c9c;
+    text-align: justify;
+    text-indent: 40px;
+  }
+  
+  footer{
+    
+    width: 100%;
+    height: 60px;
+    
+    background-color: gray;
+  }
