@@ -6,7 +6,7 @@
     
 }
 body{
-    background-color: black;
+    
     align-items: center;
 }
 
@@ -20,8 +20,9 @@ h3{
 }
 
 header{
-    background-color: black;
-
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
     padding: 10px;
     height: 40px;
     display: flex;
@@ -33,9 +34,7 @@ header{
 
 .menu {
     margin: 15px;
-    
-    
-   
+
 }
 
 .menu a{
@@ -43,42 +42,37 @@ header{
    margin: 15px;
     text-decoration: none; 
 }
-main{
+.metade{
     display: flex;
+    align-items: center;
+    margin-top: 0px;
+    width: 100%;
+    height:610px;
+   background-color: black;
+}
+main{  
     align-items: center;
 }
 .img{
+   display: block;
     
-    
-    margin-left: 45%;
-    margin-top: 3%;
-    
-    
+    margin-left: 43%;
+    margin-top: 3%; 
 }
 
 .i{
-    
-   
     width: 200px;
     height: 200px;
     
     border-radius: 100%;
 }
 
-
-    
-
 .titulo{
     width: 100%;
     height: 200px;
     text-align: center;
     display: flex;
-    
-    
-    
-    
-
-
+    display: inline;
    
 }
 h1{
@@ -86,4 +80,67 @@ h1{
     text-align: center;
     margin-top: 15px;
     
+}
+button{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: black;
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.botao{
+    text-decoration: none;
+}
+.divisao{
+  background-color: rgb(95, 236, 236);
+    width: 100%;
+    margin-top: 0px;
+    height: 15px;
+    table-layout: fixed;
+    display: table;
+}
+.divisao2{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    margin-top: 0px;
+    height: 600px;
+    table-layout: fixed;
+    display: table;
+}
+.divisao2 h1{
+   color: black;
+   margin-top: 100px;
+   text-align: center;
+   align-items: center;
+}
+footer{
+    margin-top: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    position: relative;
+}
+ul{
+    margin-top: 30px;
+    position: absolute;
+    left: 5%;
+    
+    
+}
+ul a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;  
+}
+li{
+    margin: 10px;
+    list-style: none;
 }
