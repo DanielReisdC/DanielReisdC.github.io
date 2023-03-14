@@ -93,10 +93,7 @@ button{
     font-size: 15px;
     cursor: pointer;
 }
-button :hover{
-    color: black;
-   background-color: grey;
-}
+
 .botao{
     text-decoration: none;
 }
