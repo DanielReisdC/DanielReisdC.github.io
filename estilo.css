@@ -11,14 +11,17 @@ body{
     margin: 0px;
 }
 
+
+
 h3{
     
     color: white;
-
+    
+    
 }
 
 header{
-    max-width: 100%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0);
     position: fixed;
     padding: 10px;
@@ -28,9 +31,6 @@ header{
     align-items: center;
     text-align: center;
 
-}
-div{
-    max-width: 100%;
 }
 
 .menu {
@@ -128,11 +128,14 @@ button{
     width: 100%;
     height: 100px;
     align-items: center;
+    
+    
 
 }
 .titulo2 h1{
     margin-top: 50px;
  
+    
 }
 .textbox{
     width: 70%;
@@ -148,12 +151,16 @@ button{
      width: 50%;
      height: 100px;
      margin: 20px;
+    
+  
 }
 .sobre h1{
     
      font-size: 20px;
     text-align: justify;
     margin: 0px;
+   
+    
 }
 
 .sobre p{
@@ -161,12 +168,14 @@ button{
     margin-top: 10px;
     
     text-align: justify;
-
+    
+   
 }
+
 
 footer{
     margin-top: 0px;
-    max-width: 100%;
+    width: 100%;
     height: 150px;
     background-color: black;
     position: relative;
@@ -189,7 +198,6 @@ li{
     list-style: none;
 }
 img{
-    max-width: 100%;
 height: 20px;
 
 }
